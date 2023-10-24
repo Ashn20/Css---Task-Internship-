@@ -1,0 +1,79 @@
+    body {
+        background-image: url(Tech.webp);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav {
+        background-color: rgba(136, 136, 239, 0.186);
+        border-radius: 20px;
+        float: right;
+        width: 45%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+    }
+
+    li {
+
+        color: rgb(241, 239, 234);
+        display: inline-flex;
+        padding-right: 50px;
+        margin-right: 30px;
+        justify-content: space-between;
+
+    }
+
+    li:hover {
+        background-color: rgba(167, 160, 160, 0.403);
+
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
+
+    .center {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 28%;
+        justify-content: center;
+        padding-left: 20%;
+        font-size: 65px;
+    }
+
+    span {
+        background-color: rgba(248, 248, 248, 0.233);
+        width: 100%;
+        border-radius: 20px;
+        padding: 0 60px 0 60px;
+        letter-spacing: 40px;
+
+    }
+
+    p {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 25px;
+        letter-spacing: 0;
+
+        border-radius: 20px;
+        padding-left: 250px;
+    }
+
+    span:hover {
+        background-color: rgba(73, 173, 255, 0.336);
+        transition: 1s;
+        cursor: pointer;
+
+
+    }
+
+    p:hover {
+        background-color: rgba(240, 248, 255, 0.195);
+        width: 100%;
+        cursor: pointer;
+    }
